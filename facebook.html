@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+        }
+        main {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .leftsid {
+            width: 50%;
+            height: 500px;
+            text-align: center;
+            padding: 130px;
+        }
+        .leftsid h1 {
+            color: blue;
+            font-family: 'Poppins', sans-serif;
+            font-size: 50px;
+            padding-right: 50px;
+        }
+        .leftsid p{
+            font-size: 30px;
+            text-align: justify;
+            margin-left: 100px;
+        }
+        /* rightsid */
+
+        .rightsid {
+            width: 50%;
+            height: 500px;
+            /* background-color: rosybrown; */
+            justify-content: center;
+            align-items: center;
+        }
+        .rightsid .login {
+            width: 400px;
+            height: 340px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 80px;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        #useremail {
+            width: 360px;
+            height: 50px;
+            margin-top: 15px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            font-size: 15px;
+        }
+        #userpassword {
+            width: 360px;
+            height: 50px;
+            margin-top: 15px;
+            font-size: 15px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        .button1 {
+            width: 360px;
+            cursor: pointer;
+            height: 50px;
+            margin-top: 15px;
+            background-color: blue;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 18px;
+            border: 1px solid blue;
+            border-radius: 5px;
+        }
+        .button2 {
+            width: 170px;
+            height: 50px;
+            background-color: #42b72a;
+            color: #fff;
+            border: 1px solid #42b72a ;
+            border-radius: 5px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        .rightsid p {
+            color:#0000ff;
+        }
+        .rightsid p:last-child {
+            color:black;
+            padding: 20px 40px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- leftside -->
+        <div class="leftsid">
+            <h1>facebook</h1>
+            <br>
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <!-- Right Side -->
+        <div class="rightsid">
+            <!-- login nav -->
+            <div class="login">
+                <input type="text" id="useremail" name="useremail" placeholder="Email adress and phone number">
+                <br>
+                <input type="password" id="userpassword" name="userpassword" placeholder="Password" >
+                <br>
+                <button class="button1">Log in</button>
+                <br> <br>
+                <p>Forgotten password?</p>
+                <br>
+                <hr>
+                <br>
+                <button class="button2">Creat new account</button>
+            </div>
+            <p> <b>Create a Page</b> for a celebrity, brand or business.</p>
+        </div>
+    </main>
+</body>
+</html>
